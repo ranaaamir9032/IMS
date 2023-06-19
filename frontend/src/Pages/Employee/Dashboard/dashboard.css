@@ -1,0 +1,28 @@
+.component-body > .user-card{
+    width: 100%;
+    padding: 1% 0;
+    margin-top: 2%;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
+
+.emp-table{
+    width: 100%;
+}
+
+.emp-table-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.table-data{
+    margin: 0 !%;
+    width: 15%;
+}
+
+h3{
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+.vendor-header > .left-header{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.vendor-filter-bar{
+    padding-bottom: 2%;
+}

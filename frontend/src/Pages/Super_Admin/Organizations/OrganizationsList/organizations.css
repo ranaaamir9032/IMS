@@ -1,0 +1,27 @@
+.org-container {
+  width: 85%;
+  background-color: white;
+  margin: 3% auto;
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.org-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.org-left-header {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1% 0;
+  width: 100%;
+}

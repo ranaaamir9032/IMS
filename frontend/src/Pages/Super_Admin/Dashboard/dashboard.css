@@ -1,0 +1,74 @@
+
+.dashboard-container{
+    background-color:#EAECEB  ;
+}
+
+.sub-heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.gray-txt{
+    color: gray;
+}
+
+
+.dashboard-content{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: white;
+    margin: 3% auto;
+    margin-bottom: 0;
+    padding: 01% 2%;
+    border-radius: 20px;
+}
+
+.card-data{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+    border-bottom: 1px solid lightgray;
+    padding: 1% 0%;
+}
+
+.card-graph{
+    margin: 5% 0%;
+    border-bottom: 1px solid lightgray;
+}
+.graph-header, .table-header{
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graph-left-buttons, .graph-right-buttons{
+width: 50%;
+display: flex;
+align-items: center;
+}
+
+.chart-btn{
+    display: flex;
+    align-items: center;
+    margin: 0% 2%;
+    background-color: white;
+    border: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.graph-right-buttons{
+    justify-content: flex-end;
+}
+.swap-data-btn:active{
+    color: green;
+    text-decoration: underline;
+}
+
+.complaints-btn{
+    color: gray;
+    text-decoration: none;
+}

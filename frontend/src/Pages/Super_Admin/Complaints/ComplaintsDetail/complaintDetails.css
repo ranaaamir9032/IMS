@@ -1,0 +1,54 @@
+.left-header-content {
+  width: 60%;
+}
+
+.left-header-content > h1 {
+  margin: 0 3%;
+}
+
+.status {
+  padding: 1% 2%;
+  border-radius: 10px;
+  color: white;
+}
+
+.change-status-btn {
+  background-color: green;
+}
+
+.complaint-info {
+  margin: 2% 0%;
+  padding-top: 2%;
+  border-top: 2px solid lightgray;
+  display: flex;
+  align-items: first baseline;
+}
+
+.description-heading {
+  width: 30%;
+}
+
+.complaint-content {
+  width: 70%;
+}
+
+.attachment-images {
+  margin: 2% 0;
+  width: 6%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.attachment-images > img {
+  width: 100%;
+}
+
+.complain-by {
+  padding-top: 2%;
+  border-top: 2px solid lightgray;
+}
+
+.cmp-heading {
+  font-size: 1.3em;
+  font-weight: 600;
+}

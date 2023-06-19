@@ -1,0 +1,16 @@
+
+.filter-btn{
+    display: flex;
+    align-items: center;
+    padding: 15%;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.filter-btn-left{
+    display: flex;
+flex-direction: column;
+}

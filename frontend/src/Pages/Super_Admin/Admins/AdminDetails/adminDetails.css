@@ -1,0 +1,35 @@
+.admin-info{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+    padding-bottom: 2%;
+    border-bottom: 2px solid lightgray;
+}
+
+.details-header{
+    border-bottom: 2px solid lightgray;
+}
+
+.profile-pic{
+    width: 10%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile-pic > img{
+    width: 100%;
+}
+.admin-details{
+    margin: 0 1%;
+}
+
+.admin-organization{
+    border: none;
+    padding: 2% 0;
+    width: 100%;
+}
+
+
+.no-border{
+    border: none;
+}

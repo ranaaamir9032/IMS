@@ -1,0 +1,133 @@
+.new-org-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-org-btns{
+    display: flex;
+    align-items: center;
+}
+
+.header-org-btns > .left-btns{
+    width: 27%;
+    justify-content: space-between;
+}
+
+.right-btns{
+    justify-content: space-between;
+    width: 12%;
+}
+
+.back-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    color: gray;
+    background-color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btn{
+    padding: 9% 13%;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.cancel-btn{
+    color: gray;
+    background-color: #EEEFF1 ;
+    border: 1px solid gray;
+}
+
+.save-btn{
+    color: white;
+    background-color: seagreen;
+    border: none;
+    
+}
+
+.new-org-form{
+    width: 100%;
+}
+
+
+.img-upload{
+    display: flex;
+    align-items: center;
+    padding: 3% 0%;
+    margin: 1% 0%;
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.logo-upload{
+    padding: 0;
+    width: 8%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 3px solid gray;
+} 
+
+.logo-upload > img{
+    width: 100%;    
+}
+
+.img-upload > .heading{
+    margin: 0% 2%;
+}
+
+.div-heading{
+    font-size: 1.5em;
+    font-weight: 900;
+    
+}
+
+.upload-img-btn{
+    display: flex;
+    align-items: center;
+    padding: 1% 1.5%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4583F5 ;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.data-field{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 2% 0%;
+    margin: 1% 0;
+    border-bottom: 1px solid gray;
+}
+.bio-field{
+    padding: 1%;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.form-left{
+    width: 40%;
+}
+
+.adrs-fields{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    /* background-color: #4583F5; */
+}
+
+.credentials{
+    width: 100%;
+}
+
+.credentials{
+    border-top: 1 px solid gray;
+}

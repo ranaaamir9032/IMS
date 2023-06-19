@@ -1,0 +1,16 @@
+.user-card{
+    display: flex;
+    align-items: center;
+}
+
+.user-card > .pfp{
+    width: 10%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.user-card > .details{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1%;
+}

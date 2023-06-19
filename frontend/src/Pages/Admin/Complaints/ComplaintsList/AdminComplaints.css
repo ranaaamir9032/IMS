@@ -1,0 +1,42 @@
+.cmp-header > .left-header, .right-header{
+    display: flex;
+    align-items: center;
+}
+
+.cmp-header > .left-header{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.cmp-header > .right-header{
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.admin-cmp-body{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.cmp-left-toggle{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.cmp-right-table{
+    width: 80%;
+}
+
+.toggle-btn{
+    margin-bottom: 2%;
+    padding: 6% 2%;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}

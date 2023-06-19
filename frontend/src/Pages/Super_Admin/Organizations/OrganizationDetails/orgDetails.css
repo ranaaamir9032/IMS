@@ -1,0 +1,76 @@
+.org-det-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.org-details, .org-content-head{
+    display: flex;
+}
+
+.org-details{
+    padding: 2% 0;
+    border-top: 2px solid lightgray ;
+    width: 100%;
+}
+
+.tabs{
+    width: 15%;
+}
+
+.switch-btn{
+    text-align: left;
+    padding: 5% 1%;
+    font-size: medium;
+    width: 90%;
+    margin-top: 1%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.org-det-content{
+    width: 80%;
+    border-left: 2px solid lightgray;
+    padding: 2%;
+}
+
+.org-content-head{
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 2%;
+}
+
+
+.org-content-head >.logo{
+    width: 13%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.org-content-head >.logo > img{
+    width: 100%;
+}
+
+.org-content-head  > .title{
+    margin: 0 2%;
+}
+
+.pri-heading{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.org-det-field{
+    padding: 2% 0;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    align-items: first baseline;
+}
+
+.org-det-left{
+    width: 40%;
+}
+
+.org-det-admins{
+    width: 80%;
+}

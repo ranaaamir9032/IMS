@@ -1,0 +1,28 @@
+.cmp-container {
+    width: 85%;
+    background-color: white;
+    margin: 3% auto;
+    padding: 2%;
+    border-radius: 20px;
+  }
+  
+  .cmp-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cmp-left-header {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 0;
+    width: 100%;
+  }
+  

@@ -1,0 +1,13 @@
+
+.new-category-header> h1{
+    margin-left: 5%;
+}
+
+
+.right-header > Button{
+    margin: 0% 5%;
+}
+
+.border-top{
+    border-top: 2px solid lightgray;
+}

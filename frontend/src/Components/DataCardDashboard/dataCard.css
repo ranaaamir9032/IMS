@@ -1,0 +1,23 @@
+.data-card-contaner{
+    padding: 1% 0%;
+    width: 20%;
+
+}
+
+.data-card-title{
+    font-size: 1.2rem;
+}
+
+.data-card-figure{
+    display: flex;
+    align-items: center;
+}
+
+.data-card-figure > .figure{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.data-tagline{
+    padding: 0;
+}

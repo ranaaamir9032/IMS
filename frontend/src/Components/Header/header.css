@@ -1,0 +1,53 @@
+.header-container{
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%;
+}
+
+.pages-header{
+    /* width: 60%; */
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+.logo-header{
+    width: 10%;
+    padding: 0 2%;
+    border-right: 1px solid lightgray;
+
+}
+
+.logo-header > img{
+width: 100%;
+}
+
+.pages-list{
+    margin-left: 1%;
+}
+
+.user-profile-header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.image-header{
+    width: 10%;
+}
+
+
+.user-profile-header > button{
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

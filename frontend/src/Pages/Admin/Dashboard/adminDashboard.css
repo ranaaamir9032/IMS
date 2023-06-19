@@ -1,0 +1,25 @@
+.main-heading{
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+
+.dashboard-data{
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.charts{
+    padding: 3% 0%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.complaints-chart, .inventory-chart{
+    width: 50%;
+}
+
+.admin-comp-header {
+    padding: 2% 0%;
+}

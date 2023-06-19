@@ -1,0 +1,14 @@
+.inv-header > .left-header{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-bar{
+    display: flex;
+    width: 6%;
+    float: right;
+    justify-content: space-around;
+    padding: 1% 0;
+}
